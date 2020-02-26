@@ -23,9 +23,7 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-    modulo1 = num1.remainder(num2)
-  puts modulo1
-  return modulo1
+    n1 % num2
 end
 
 def square_root(num)
